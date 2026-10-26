@@ -6,11 +6,6 @@ WinUSB4Viewer is a native Windows utility that reports the USB4 domain informati
 Windows Settings: topology, silicon identity, USB4 version, and DisplayPort adapter counts —
 for every USB4 host router and each connected device router on the machine.
 
-Instead of parsing formatted trace text or invoking WDK tools, WinUSB4Viewer consumes the
-Windows USB4 TraceLogging providers directly through ETW and decodes their self-describing
-payloads with TDH. Collection is **passive**: the tool requests a state snapshot from the
-USB4 providers and never modifies system state.
-
 ## Features
 
 - USB4 domain topology across host and device routers (topology IDs, depth, upstream links)
@@ -19,7 +14,8 @@ USB4 providers and never modifies system state.
 - Link details: current speed, negotiated width, lane bonding, TBT3-compatible mode,
   HEC error counters
 - DisplayPort adapter counts, including tunneled adapters
-- Two front-ends over one shared collector:
+- Read-only: never modifies system state
+- Two front-ends:
   - **WinUSB4Viewer.exe** — native Windows interface with Refresh, Copy, and About actions
   - **WinUSB4ViewerCli.exe** — command-line output for scripting and diagnostics
 
@@ -27,7 +23,7 @@ USB4 providers and never modifies system state.
 
 - Windows 11 (x64)
 - USB4-capable hardware with the Windows USB4 host-router driver loaded
-- Administrator rights for the command-line tool (it creates a global real-time ETW session)
+- Administrator rights for the command-line tool
 
 ## Command-line usage
 

@@ -1,0 +1,14 @@
+WINUSB4VIEWER PROPRIETARY SOFTWARE LICENSE
+
+Copyright (c) 2024 ParaHarz Software. All rights reserved.
+
+Permission is granted to use WinUSB4Viewer in executable form for its intended purpose. No ownership interest or source-code rights are transferred.
+
+Except with prior written permission from the copyright holder, you may not copy, modify, adapt, distribute, sublicense, sell, rent, decompile, disassemble, reverse engineer, reconstruct source code from, or create derivative works of this software. You may not use this software, its binaries, behavior, output, or reconstructed source for AI or machine-learning training, fine-tuning, evaluation datasets, or retrieval corpora.
+
+The restrictions above apply only to the extent permitted by applicable law and do not limit rights that cannot lawfully be excluded. Any authorized redistribution must retain this license and AI_POLICY.txt.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COPYRIGHT HOLDER SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE.
+
+Contact: support@paraharz.com
+Website: https://www.paraharz.com
